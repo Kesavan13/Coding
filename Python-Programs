@@ -35,8 +35,5 @@ num_sqrt = num * num
 print(num_sqrt)
 
 Output:
-# To take the input from the user
-num = int(input('Enter a number: '))
-
-num_sqrt = num * num
-print(num_sqrt)
+Enter a number: 5
+25
