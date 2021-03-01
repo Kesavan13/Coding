@@ -1,0 +1,42 @@
+1.Python Program to Print Hello world!
+Source Code:
+
+# This program prints Hello, world!
+print('Hello, world!')
+
+Output:
+Hello, world!
+
+2.Python Program to Add Two Numbers
+Source Code:
+
+# Store input numbers
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
+
+# Add two numbers
+sum = int(num1) + int(num2)
+
+# Display the sum
+print(sum)
+
+Output:
+Enter first number: 1
+Enter second number: 2
+3
+
+3.Python Program to Find the Square Root
+Source Code:
+
+# To take the input from the user
+num = int(input('Enter a number: '))
+
+num_sqrt = num * num
+print(num_sqrt)
+
+Output:
+# To take the input from the user
+num = int(input('Enter a number: '))
+
+num_sqrt = num * num
+print(num_sqrt)
