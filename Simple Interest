@@ -1,0 +1,26 @@
+
+
+Simple Interest formula:
+
+Simple interest formula is given by:
+Simple Interest = (P x T x R)/100
+Where,
+P is the principle amount
+T is the time and
+R is the rate
+
+Program to find simple interest :
+
+P=int(input("Enter P: "));
+R=int(input("Enter R: "));
+T=int(input("Enter T: "));
+SI = (P * R * T) / 100
+print('The Simple Interest is', SI);
+
+    
+Output:
+
+Enter P: 15000
+Enter R: 5
+Enter T: 5
+The Simple Interest is 3750.0
