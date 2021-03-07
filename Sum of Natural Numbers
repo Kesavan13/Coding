@@ -1,0 +1,32 @@
+Python Program to Find the Sum of Natural Numbers
+
+Source Code :
+# Sum of natural numbers up to num
+
+num = int(input("Enter a Number :"))
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   # use while loop to iterate until zero
+   while(num > 0):
+       sum += num
+       num -= 1
+   print("The sum is", sum)
+   
+Output:
+Enter a Number :16
+The sum is 136
+
+Python Program to Find the Sum of Natural Numbers
+
+Source Code:
+# Simple way to find sum of n natural numbers
+num = int(input("Enter a Number :"))
+sum=num*(num+1)/2
+print(sum)
+
+Output:
+Enter a Number :16
+The sum is 136
