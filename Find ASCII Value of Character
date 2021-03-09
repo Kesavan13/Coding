@@ -1,0 +1,11 @@
+Python Program to Find ASCII Value of Character
+
+Source Code :
+# Program to find the ASCII value of the given character
+
+c = input()
+print("The ASCII value of '" + c + "' is", ord(c))
+
+Output :
+
+The ASCII value of 'p' is 112
