@@ -1,0 +1,63 @@
+Python program to get Current Time
+
+1: Current time of a timezone – Using pytZ module
+
+from datetime import *
+import pytz 
+  
+  
+tz_INDIA = pytz.timezone('Asia/Kolkata')  
+datetime_INDIA = datetime.now(tz_INDIA) 
+print("INDIA time:", datetime_INDIA.strftime("%H:%M:%S")) 
+
+Output:
+INDIA time: 19:29:53
+
+2 : Current time – Using date time object
+
+Example 1:
+from datetime import datetime 
+  
+# now() method is used to 
+# get object containing  
+# current date & time. 
+now_method = datetime.now() 
+  
+# strftime() method used to 
+# create a string representing 
+# the current time. 
+currentTime = now_method.strftime("%H:%M:%S") 
+print("Current Time =", currentTime) 
+
+
+Output:
+Current Time = 19:31:51
+
+
+Example 2:
+from datetime import datetime   
+# Time object containing  
+# the current time. 
+time = datetime.now().time()  
+print("Current Time =", time) 
+
+Output:
+Current Time = 19:33:29.087840
+
+
+
+3. Getting Time – using Time module.
+import time   
+# localtime() method used to 
+# get the object containing 
+# the local time. 
+Time = time.localtime() 
+  
+# strftime() method used to 
+# create a string representing 
+# the current time. 
+currentTime = time.strftime("%H:%M:%S", Time) 
+print(currentTime) 
+
+Output:
+19:35:17
